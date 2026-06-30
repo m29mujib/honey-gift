@@ -833,7 +833,7 @@ const sendWhatsAppMessage = () => {
   const selectedProduct = allProducts[selectedProductIndex.value];
   if (!selectedProduct) return;
 
-  const phone = "6288211068894"; // The phone matching honeygift_0 from picture
+  const phone = "6285881625069"; // The phone matching honeygift_0 from picture
   
   // Format message text
   const messageText = `Halo Admin Honey Gift! ✨🧸
