@@ -105,24 +105,24 @@
 
           <!-- Main Image (Collage Hero) -->
           <div class="relative w-[70%] h-[70%] rounded-[3rem] overflow-hidden shadow-cute rotate-3 border-4 border-white animate-float-slow hover:rotate-0 transition duration-300">
-            <img src="/src/assets/img/honey_gift_hero.png" alt="Honey Gift Collection" class="w-full h-full object-cover">
+            <img src="/img/honey_gift_hero.png" alt="Honey Gift Collection" class="w-full h-full object-cover">
           </div>
 
           <!-- Decorative Floating Thumbnail 1 (Cute Pens) -->
           <div class="absolute top-[5%] right-[5%] w-[32%] aspect-square rounded-2xl overflow-hidden shadow-cute -rotate-6 border-4 border-white hover:rotate-0 transition duration-300 group">
-            <img src="/src/assets/img/cute_pens.png" alt="Cute Pens" class="w-full h-full object-cover group-hover:scale-110 transition duration-300">
+            <img src="/img/cute_pens.png" alt="Cute Pens" class="w-full h-full object-cover group-hover:scale-110 transition duration-300">
             <span class="absolute bottom-1 right-1 bg-pink-100 text-[#ff5376] text-[10px] font-bold px-1.5 py-0.5 rounded">✏️ Pulpen</span>
           </div>
 
           <!-- Decorative Floating Thumbnail 2 (Keychains) -->
           <div class="absolute bottom-[5%] left-[0%] w-[32%] aspect-square rounded-2xl overflow-hidden shadow-cute rotate-12 border-4 border-white hover:rotate-0 transition duration-300 group">
-            <img src="/src/assets/img/cute_keychain.png" alt="Cute Keychain" class="w-full h-full object-cover group-hover:scale-110 transition duration-300">
+            <img src="/img/cute_keychain.png" alt="Cute Keychain" class="w-full h-full object-cover group-hover:scale-110 transition duration-300">
             <span class="absolute bottom-1 left-1 bg-pink-100 text-[#ff5376] text-[10px] font-bold px-1.5 py-0.5 rounded">🔑 Gantungan</span>
           </div>
 
           <!-- Decorative Floating Thumbnail 3 (Pouches) -->
           <div class="absolute bottom-[20%] right-[0%] w-[28%] aspect-square rounded-2xl overflow-hidden shadow-cute -rotate-12 border-4 border-white hover:rotate-0 transition duration-300 group">
-            <img src="/src/assets/img/cute_pouch.png" alt="Cute Pouch" class="w-full h-full object-cover group-hover:scale-110 transition duration-300">
+            <img src="/img/cute_pouch.png" alt="Cute Pouch" class="w-full h-full object-cover group-hover:scale-110 transition duration-300">
             <span class="absolute bottom-1 right-1 bg-pink-100 text-[#ff5376] text-[10px] font-bold px-1.5 py-0.5 rounded">👛 Pouch</span>
           </div>
         </div>
@@ -692,7 +692,7 @@ const allProducts = [
     category: "pulpen",
     price: 12500,
     badge: "Best Seller ⭐",
-    image: "/src/assets/img/cute_pens.png",
+    image: "/img/cute_pens.png",
     reviews: "340",
     description: "Pulpen gel tinta hitam pekat dengan cap karakter hewan super imut. Genggaman soft rubber empuk nyaman buat belajar seharian."
   },
@@ -701,7 +701,7 @@ const allProducts = [
     category: "gantungan",
     price: 18900,
     badge: "Hot Deal 🔥",
-    image: "/src/assets/img/cute_keychain.png",
+    image: "/img/cute_keychain.png",
     reviews: "215",
     description: "Gantungan kunci bulu beludru super lembut berbentuk karakter fantasi berwajah gemesin. Sempurna dipajang di ransel atau tas bebs."
   },
@@ -710,7 +710,7 @@ const allProducts = [
     category: "pouch",
     price: 24500,
     badge: "Cute Choice 🎀",
-    image: "/src/assets/img/cute_pouch.png",
+    image: "/img/cute_pouch.png",
     reviews: "189",
     description: "Pouch berkapasitas besar berlapis bulu domba boneka teddy bear yang empuk. Dilengkapi resleting emas premium & anti macet."
   },
@@ -719,7 +719,7 @@ const allProducts = [
     category: "notes",
     price: 29000,
     badge: "Eksklusif 🌟",
-    image: "/src/assets/img/cute_notebook.png",
+    image: "/img/cute_notebook.png",
     reviews: "95",
     description: "Buku diary catatan harian bersampul kartun gemoy lengkap dengan gembok emas mini. Kertas tebal bergaris anti tembus tinta."
   },
@@ -728,7 +728,7 @@ const allProducts = [
     category: "pulpen",
     price: 13900,
     badge: "New Item ✨",
-    image: "/src/assets/img/cute_pens.png",
+    image: "/img/cute_pens.png",
     reviews: "82",
     description: "Pulpen dengan mainan squishy karakter di badannya. Bisa diremas-remas pereda stress saat bebs lelah belajar di sekolah."
   },
@@ -737,7 +737,7 @@ const allProducts = [
     category: "gantungan",
     price: 15500,
     badge: "Best Seller ⭐",
-    image: "/src/assets/img/cute_keychain.png",
+    image: "/img/cute_keychain.png",
     reviews: "148",
     description: "Gantungan kunci bear akrilik dengan cairan glitter mengkilap di dalamnya. Goyang-goyangkan dan liat bintang berkilauan!"
   },
@@ -746,7 +746,7 @@ const allProducts = [
     category: "pouch",
     price: 22000,
     badge: "Aesthetic Choice 💖",
-    image: "/src/assets/img/cute_pouch.png",
+    image: "/img/cute_pouch.png",
     reviews: "112",
     description: "Tas pouch transparan hologram tahan air dengan taburan glitter gemerlap. Cocok untuk botol skincare dan kosmetik bebs."
   },
@@ -755,7 +755,7 @@ const allProducts = [
     category: "notes",
     price: 16500,
     badge: "Best Value 🏷️",
-    image: "/src/assets/img/cute_notebook.png",
+    image: "/img/cute_notebook.png",
     reviews: "260",
     description: "Set lengkap pembatas buku memo tempel aneka ukuran dengan corak kuda poni pastel lembut yang bikin catatan bebs rapi & gemoy."
   }
