@@ -186,15 +186,22 @@
       </div>
 
       <!-- Filter Tabs -->
-      <div class="flex flex-wrap items-center justify-center gap-2 mb-10 max-w-3xl mx-auto">
+      <div class="flex flex-wrap items-center justify-center gap-2 mb-6 max-w-3xl mx-auto">
         <button v-for="tab in tabs" :key="tab.id" @click="activeTab = tab.id" :class="['px-5 py-2.5 rounded-full font-bold text-sm transition transform hover:scale-105 active:scale-95 duration-200 cursor-pointer shadow-sm', activeTab === tab.id ? 'bg-gradient-to-r from-[#ff5376] to-[#ff7eb3] text-white shadow-cute' : 'bg-white border border-[#ffd1dc] text-[#6b5555] hover:bg-[#fff0f3]']">
           {{ tab.label }}
         </button>
       </div>
 
-      <!-- Products Grid -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div v-for="(product, index) in filteredProducts" :key="index" class="bg-white rounded-2xl overflow-hidden border border-[#ffe3e9] flex flex-col hover:translate-y-[-8px] transition duration-300 shadow-sm shadow-cute-hover group">
+      <!-- Swipe Instruction for Mobile -->
+      <div class="flex items-center justify-center gap-2 text-xs text-[#ff5376] font-bold mb-6 md:hidden animate-pulse-slow">
+        <i class="pi pi-arrow-left"></i>
+        <span>Geser ke samping untuk produk lainnya</span>
+        <i class="pi pi-arrow-right"></i>
+      </div>
+
+      <!-- Products Container (Slider on mobile, Grid on desktop) -->
+      <div class="flex flex-row overflow-x-auto gap-5 px-1 pb-6 scroll-smooth snap-x snap-mandatory [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-6 md:pb-0 md:overflow-visible">
+        <div v-for="(product, index) in filteredProducts" :key="index" class="w-[280px] shrink-0 snap-start bg-white rounded-2xl overflow-hidden border border-[#ffe3e9] flex flex-col hover:translate-y-[-8px] transition duration-300 shadow-sm shadow-cute-hover group md:w-auto md:shrink md:snap-align-none">
           
           <!-- Product Image Container -->
           <div class="relative aspect-square overflow-hidden bg-gray-50">
